@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Student Grade System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Grade System</h1>
+        
+        <div class="input-group">
+            <label for="sub1">English : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="number" name="sub1" id="sub1" max="100" min="0"> <br/>
+        </div>
+        <div class="input-group">
+            <label for="sub2">Maths : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="sub2" id="sub2" max="100" min="0"> <br/>
+        </div>
+        <div class="input-group">
+            <label for="sub3">Chemistry : &nbsp;</label>
+            <input type="number" name="sub3" id="sub3" max="100" min="0"> <br/>
+        </div>
+        <div class="input-group">
+            <label for="sub4">Physics : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="sub4" id="sub4" max="100" min="0"> <br/>
+        </div>
+        
+        <button onclick="handleClick()">Show Result</button>
+        
+        <p id="marks"></p>
+        <p id="percentage"></p>
+        <p id="grade"></p>
+        <p id="res"></p>
+        
+    </div>
+
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
